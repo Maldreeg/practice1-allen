@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=3 uid="uid://elfp40lm421d"]
+
+[ext_resource type="Texture2D" uid="uid://qpb54o16d4k8" path="res://icon.svg" id="1_jq710"]
+[ext_resource type="Script" path="res://player.cs" id="2_uu102"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y00g2"]
+size = Vector2(1146, 51)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_p62x0"]
+a = Vector2(9.29203, 479)
+b = Vector2(8.84956, -171)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8cs75"]
+size = Vector2(122, 122)
+
+[node name="World" type="StaticBody2D"]
+
+[node name="land_cloth" type="Sprite2D" parent="."]
+position = Vector2(577, 621)
+scale = Vector2(8.95312, 0.40625)
+texture = ExtResource("1_jq710")
+
+[node name="land" type="CollisionShape2D" parent="."]
+position = Vector2(577, 619.5)
+shape = SubResource("RectangleShape2D_y00g2")
+
+[node name="wall1" type="CollisionShape2D" parent="."]
+position = Vector2(1111, 164)
+scale = Vector2(4.52, 1)
+shape = SubResource("SegmentShape2D_p62x0")
+
+[node name="wall2" type="CollisionShape2D" parent="."]
+position = Vector2(-49, 177)
+scale = Vector2(4.52, 1)
+shape = SubResource("SegmentShape2D_p62x0")
+
+[node name="player" type="CharacterBody2D" parent="."]
+position = Vector2(152, 464)
+script = ExtResource("2_uu102")
+
+[node name="Sprite2D" type="Sprite2D" parent="player"]
+texture = ExtResource("1_jq710")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_8cs75")
