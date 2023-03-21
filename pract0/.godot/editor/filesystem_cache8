@@ -1,0 +1,25 @@
+2a60927148abd1d33b818b535e306557
+::res://::1679366819
+backup.txt::TextFile::-1::1679156085::0::1::::<><>::
+icon.svg::CompressedTexture2D::1154103001356643377::1678917647::1678918083::1::::<><>::
+player.cs::CSharpScript::-1::1679289218::0::1::::<><>::
+playerAI.cs::CSharpScript::-1::1679366725::0::1::::<><>::
+world.tscn::PackedScene::303795464033455019::1679366727::0::1::::<><>::uid://qpb54o16d4k8<>res://playerAI.cs<>res://player.cs<>uid://btw6s3hcy72wq
+::res://Assets/::1679366280
+flower1.png::CompressedTexture2D::3767340876062747496::1679366280::1679366280::1::::<><>::
+flower.png::CompressedTexture2D::50282092480054925::1679366014::1679366014::1::::<><>::
+::res://Assets/dinoCharactersVersion1.1/::1678917647
+changelog.txt::TextFile::-1::1678917647::0::1::::<><>::
+::res://Assets/dinoCharactersVersion1.1/aseprite/::1678917647
+::res://Assets/dinoCharactersVersion1.1/gifs/::1678917647
+::res://Assets/dinoCharactersVersion1.1/misc/::1678918083
+bg.png::CompressedTexture2D::261126626870766055::1678917647::1678918083::1::::<><>::
+shadow_2.png::CompressedTexture2D::4880346923913237806::1678917647::1678918083::1::::<><>::
+::res://Assets/dinoCharactersVersion1.1/sheets/::1678918083
+DinoSprites - doux.png::CompressedTexture2D::1788929437530309146::1678917647::1678918083::1::::<><>::
+DinoSprites - mort.png::CompressedTexture2D::5663080277143760948::1678917647::1678918083::1::::<><>::
+DinoSprites - tard.png::CompressedTexture2D::528610204664564721::1678917647::1678918083::1::::<><>::
+DinoSprites - vita.png::CompressedTexture2D::852096931302848162::1678917647::1678918083::1::::<><>::
+::res://Assets/happy-monster-character-novel-story-vector-illustration-flat-style-bat-designer-create-banner-web-page-card-novel-story/::1678918088
+indonov12.jpg::CompressedTexture2D::1435190713191283115::1678917647::1678918088::1::::<><>::
+::res://practice1/::1678917647

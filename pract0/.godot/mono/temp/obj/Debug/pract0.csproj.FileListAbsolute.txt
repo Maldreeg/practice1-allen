@@ -1,0 +1,17 @@
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/bin/Debug/pract0.deps.json
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/bin/Debug/pract0.runtimeconfig.json
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/bin/Debug/pract0.dll
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/bin/Debug/pract0.pdb
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/obj/Debug/pract0.csproj.AssemblyReference.cache
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/obj/Debug/pract0.GeneratedMSBuildEditorConfig.editorconfig
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/obj/Debug/pract0.AssemblyInfoInputs.cache
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/obj/Debug/pract0.AssemblyInfo.cs
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/obj/Debug/pract0.csproj.CoreCompileInputs.cache
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/obj/Debug/pract0.csproj.CopyComplete
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/obj/Debug/pract0.dll
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/obj/Debug/refint/pract0.dll
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/obj/Debug/pract0.pdb
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/obj/Debug/pract0.genruntimeconfig.cache
+/home/clezentine/Documents/GitHub/practice1/pract0/.godot/mono/temp/obj/Debug/ref/pract0.dll

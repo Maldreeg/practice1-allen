@@ -1,7 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://elfp40lm421d"]
+[gd_scene load_steps=8 format=3 uid="uid://elfp40lm421d"]
 
 [ext_resource type="Texture2D" uid="uid://qpb54o16d4k8" path="res://icon.svg" id="1_jq710"]
-[ext_resource type="Script" path="res://player.cs" id="2_uu102"]
+[ext_resource type="Script" path="res://playerAI.cs" id="2_w63pi"]
+[ext_resource type="Script" path="res://player.cs" id="3_fhsy3"]
+[ext_resource type="Texture2D" uid="uid://btw6s3hcy72wq" path="res://Assets/flower1.png" id="4_yfa5j"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_y00g2"]
 size = Vector2(1146, 51)
@@ -11,7 +13,7 @@ a = Vector2(9.29203, 479)
 b = Vector2(8.84956, -171)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8cs75"]
-size = Vector2(122, 122)
+size = Vector2(142.857, 133.333)
 
 [node name="World" type="StaticBody2D"]
 
@@ -34,13 +36,46 @@ position = Vector2(-49, 177)
 scale = Vector2(4.52, 1)
 shape = SubResource("SegmentShape2D_p62x0")
 
-[node name="player" type="CharacterBody2D" parent="."]
-position = Vector2(152, 464)
-script = ExtResource("2_uu102")
+[node name="enemy1" type="CharacterBody2D" parent="."]
+position = Vector2(888, 520)
+scale = Vector2(0.56, 0.6)
+script = ExtResource("2_w63pi")
 
-[node name="Sprite2D" type="Sprite2D" parent="player"]
+[node name="Sprite2D" type="Sprite2D" parent="enemy1"]
 texture = ExtResource("1_jq710")
 
+[node name="CollisionShape2D" type="CollisionShape2D" parent="enemy1"]
+position = Vector2(0, -1.5)
+shape = SubResource("RectangleShape2D_8cs75")
+
+[node name="RayCast2D" type="RayCast2D" parent="enemy1"]
+target_position = Vector2(185.714, 0)
+
+[node name="enemy2" type="CharacterBody2D" parent="."]
+position = Vector2(216, 520)
+scale = Vector2(0.56, 0.6)
+script = ExtResource("2_w63pi")
+
+[node name="Sprite2D" type="Sprite2D" parent="enemy2"]
+texture = ExtResource("1_jq710")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="enemy2"]
+position = Vector2(-3.05176e-05, 0)
+shape = SubResource("RectangleShape2D_8cs75")
+
+[node name="RayCast2D" type="RayCast2D" parent="enemy2"]
+target_position = Vector2(185.714, 0)
+
+[node name="player" type="CharacterBody2D" parent="."]
+position = Vector2(528, 512)
+scale = Vector2(0.56, 0.6)
+script = ExtResource("3_fhsy3")
+
+[node name="Sprite2D" type="Sprite2D" parent="player"]
+position = Vector2(-4.00543e-05, 3.8147e-05)
+scale = Vector2(3.57143, 3.33333)
+texture = ExtResource("4_yfa5j")
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
-position = Vector2(0, -2)
+position = Vector2(0, 6.66669)
 shape = SubResource("RectangleShape2D_8cs75")
